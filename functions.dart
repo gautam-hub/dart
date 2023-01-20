@@ -36,7 +36,7 @@ class MyClass {
     int diff = sub1 - sub2;
     return diff;
   }
-
+  // to add numbers
   // int Add() {
   //   int a, b;
   //   a = 5;
