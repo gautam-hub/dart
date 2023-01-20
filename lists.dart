@@ -20,7 +20,7 @@ void main() {
 
   print(list2);
 
-  // This is used to update a specific index with a specific value.
+  // This is used to update a specific index with a specific value/.
   list2[2] = "RaGa";
 
   print(list2);
