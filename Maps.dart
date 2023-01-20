@@ -27,4 +27,13 @@ void main() {
   mapName['Age'] = 23;
 
   print(mapName);
+  print(mapName.isEmpty);
+  print(mapName.isNotEmpty);
+  print(mapName.keys);
+  print(mapName.length);
+  print(mapName.values);
+  print(mapName.containsValue(false));
+  print(mapName.containsKey('Name'));
+  print(mapName.remove('Age'));
+  print(mapName);
 }
