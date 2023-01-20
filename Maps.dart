@@ -1,19 +1,30 @@
 import 'dart:io';
 
 void main() {
-  var map_name = {
-    'key1': 'name',
-    'key2': 1,
-    'key3': 2.0,
-    'key4': true
-    };
+  // var map_name = {
+  //   'key1': 'name',
+  //   'key2': 1,
+  //   'key3': 2.0,
+  //   'key4': true
+  //   };
 
-  //map overriding (This will override the previous value of the key1)
-  map_name['key1'] = 'Gautam';
+  // //map overriding (This will override the previous value of the key1)
+  // map_name['key1'] = 'Gautam';
 
-  //we can add aonther value of map in this by below method
-  map_name['key5'] = 'Ramanan';
+  // //we can add aonther value of map in this by below method
+  // map_name['key5'] = 'Ramanan';
 
-  print(map_name);
-  print(map_name['key5']);
+  // print(map_name);
+  // print(map_name['key5']);
+
+  // 2nd type of defining maps
+
+  var mapName = Map();
+  mapName['Name'] = "Gautam";
+  mapName['Years Of Experience'] = "5 Years";
+  mapName['Average Rating'] = "4 Stars";
+  mapName['CanLocateToOffice'] = true;
+  mapName['Age'] = 23;
+
+  print(mapName);
 }
