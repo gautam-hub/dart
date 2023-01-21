@@ -1,3 +1,4 @@
+
 void main() {
   print("I am dart");
 
@@ -8,4 +9,13 @@ void main() {
   //  name = "Ram"; (It will give an error)
 
   print(name);
+
+  // list in final.
+
+  final names;
+  names = ["Jethala", "Babita", "Iyer", "TMKOC"];
+  names.add("Abdul");
+  // In final we can add or modify the lists.
+
+  print(names);
 }
