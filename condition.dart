@@ -2,7 +2,7 @@ void main() {
   var a = 100;
   var b = 200;
 
-  if (a > 200) {
+  /*if (a > 200) {
     // Condition 1 is true.
     print("Condition 1 is true");
     if (b > 150) {
@@ -25,5 +25,19 @@ void main() {
   } else {
     // All conditions are flase.
     print("All cond are false");
+  }*/
+  
+  // This (&&) is called and operator, for returning true both condition should be true.
+  if (a == 100 || b > 200) {
+    print("Both are true");
+  } else {
+    print("Both are not true");
+  }
+  
+  // This (||) is called or operator, if only one condition is true it will print true.
+  if (a == 100 && b > 200) {
+    print("Both are true");
+  } else {
+    print("Both are not true");
   }
 }
