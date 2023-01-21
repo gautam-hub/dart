@@ -14,6 +14,10 @@ void main() {
     "Shreyash",
     "Jethalal",
   ];
+  
+  //names.add("Babita");
+  //  This will throw an error because after using const we cant add or edit the list.
 
-   // names.add("Babita"); This will throw an error because after using const we cant add or edit the list. 
+  print(names);
+
 }
